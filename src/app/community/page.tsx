@@ -1,4 +1,19 @@
+import type { Metadata } from "next";
 import HeroRepoStatsSection from "@/components/community/HeroRepoStatsSection";
+
+export const metadata: Metadata = {
+  title: "Community",
+  description:
+    "Join the OFFER-HUB open-source community. Explore contributors, open issues, recent pull requests, and learn how to get involved.",
+  keywords: [
+    "community",
+    "open source",
+    "contributors",
+    "GitHub",
+    "OFFER-HUB",
+    "contribute",
+  ],
+};
 import ContributorsSection from "@/components/community/ContributorsSection";
 import HowToContribute from "@/components/community/HowToContribute";
 import RecentPRsSection, { PullRequestData } from "@/components/community/RecentPRsSection";
